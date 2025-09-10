@@ -6,7 +6,10 @@ function find_edit(){
     item2.innerHTML="<b>Kseniya</b>"
 
     const item3  = document.getElementById('year')
-    item3.innerHTML="<b>2006</b>"
+    item3.innerHTML="<b>2000</b>"
+    
+    const name2  = document.getElementById('name2')
+    name2.innerHTML="<b>Kirillovna</b>"
 }
 
 
