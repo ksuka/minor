@@ -1,26 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM_JS. Считываем информацию из DOM</title>
+    <link rel="stylesheet" href="../css/01.css">
 </head>
 <body>
-    <p>Фамилия: <span id="surname">Сикачева</span></p>
-    <p>Имя: <span id="name">Ксения</span></p>
-    <p>Год рождения: <span id="year">2006</span></p>
+    <div id="img1" ><img src="../img/pasport.jpg" alt=""></div>
+<p id="mvd">
+     ГУ МВД РОССИИ ПО Г.МОСКВЕ
+</p>
+
+<p id="date">
+     20.04.2000
+</p>
+
+<p id="code">
+    777-777
+</p>
+    <p id="surname1"><span id="surname">Сикачева</span></p>
+    <p id="name1"><span id="name">Ксения</span></p>
+    <p id="year1"><span id="year">2006</span></p>
+    <p id="sex">ЖЕН.</p>
+    <p id="city"> Г.МОСКВА</p>
+    <img id="face" src="../img/face.jpg" alt="">
+    <p id="name2">Кирилловна</p>
+    <img id="signature" src="../img/signature.PNG" alt="">
 </body>
 </html>
 
 
-
-
-<!--
-document.getElementsByTagName("p")[0].innerText
-'Фамилия: Сикачева'
-
+<!--document.getElementsByTagName("p")[0].childNodes[1].innerText
+    
+'Сикачева'
+document.getElementById("name").innerText
+'Ксения'
 document.getElementsByTagName("span")[2].innerHTML
 '2006'
-
-document.getElementById("year").innerText
-'2006'-->
+document.getElementsByTagName("span")[2].innerText="Изменить год на 2004"
+'Изменить год на 2004'

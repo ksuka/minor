@@ -1,0 +1,76 @@
+body{
+    width:100vw;
+    overflow-x: hidden;
+}
+
+#img1{
+    width: 100vw;
+}
+
+#img1 img{
+margin-left: 24vw;
+}
+    
+#mvd{
+margin-top: -59.5vw;
+    margin-left: 37vw;
+}
+
+#date{
+    margin-top: 6vw;
+    margin-left: 33vw;
+}
+
+#code{
+margin-top: -3.7vw;
+    margin-left: 55vw;
+}
+
+#surname1{
+    margin-top: 20.5vw;
+    margin-left: 47vw;
+}
+
+#name1{
+    margin-top: 3vw;
+    margin-left: 47vw;
+}
+
+#name2{
+    margin-top: -12vw;
+    margin-left: 47vw;
+}
+
+#year1{
+margin-top: 3vw;
+    margin-left: 52vw;
+}
+
+#sex{
+    margin-top: -3.5vw;
+    margin-left: 42vw;
+}
+
+#city{
+    margin-top: -1.3vw;
+    margin-left: 48vw;
+}
+
+#face{
+    width: 13%;
+    margin-left: 26vw;
+    margin-top: -14vw;
+}
+
+#signature{
+    width: 26%;
+    margin-left: 51vw;
+    margin-top: -44vw;
+}
+
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7vw;
+}
+
